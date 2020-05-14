@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/MetodoInterpolacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interpolacion"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/MetodoInterpolacion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interpolacion"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/MetodoInterpolacion"
+        />
+
+    <Button
+        android:id="@+id/AjusteCurvas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajustde de curvas"
+        android:layout_below="@id/MetodoInterpolacion2"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/PuntoFijo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Punto Fijo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/AjusteCurvas"
+        />
+
+    <Button
+        android:id="@+id/ReglaSimpson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regla simpson"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/PuntoFijo"
+        />
+
+</RelativeLayout>
